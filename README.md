@@ -81,10 +81,9 @@ Modular program structure
 
 5. Project Structure:- 
 ATM-Simulation/
-│
-├── atmsimulation-1.py
-├── atm_data.json
-└── README.md
+atmsimulation-1.py
+atm_data.json
+README.md
 
 File Description:- 
 atmsimulation-1.py
