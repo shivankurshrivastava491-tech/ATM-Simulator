@@ -161,58 +161,25 @@ The following test cases can be used to verify the main functionality of the pro
 
 
 11. Program Workflow
-
 Start
-  │
-  ▼
 Load account data from JSON
-  │
-  ▼
 Check account lock status
-  │
-  ├── Locked ──► Display locked message ──► End
-  │
-  ▼
+Locked  Display locked message
+End  
 Enter PIN
-  │
-  ├── Incorrect ──► Count attempt
-  │                    │
-  │                    └── 3 attempts ──► Lock account ──► End
-  │
-  ▼
+Incorrect
+Count attempt
+attempts Lock account
+End 
 Login Successful
-  │
-  ▼
 Display ATM Menu
-  │
-  ├── Check Balance
-  ├── Deposit Money
-  ├── Withdraw Money
-  ├── Transaction History
-  ├── Account Information
-  ├── Change PIN
-  │
-  └── Exit
-         │
-         ▼
-       End
+Check Balance
+Deposit Money
+Withdraw Money
+Transaction History
+Account Information
+Change PIN
+Exit
+End
 
-15. Future Enhancements
-Possible improvements for a future version include:
-Multiple customer accounts
-Card number-based login
-OTP-based authentication
-Improved PIN security using hashing
-Fund transfer between accounts
-Mini statement generation
-Receipt generation
-Admin panel
-Graphical User Interface (GUI)
-Database integration using SQLite or MySQL
-Better security and encryption
-ATM cash denomination management
-
-16. Limitations
-The current version is a console-based educational simulation.
-It uses a local JSON file for data storage and supports one account structure. It does not provide real banking connectivity, encrypted credentials, network-based authentication, or actual ATM hardware integration.
-Therefore, it should be considered a learning project rather than a production banking system.
+End 
