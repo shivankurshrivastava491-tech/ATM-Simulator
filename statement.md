@@ -160,4 +160,5 @@ Mismatched PIN confirmation
 4.10 Menu-Driven Interface:-
 
 The system provides a simple numbered menu so that users can select the required ATM operation from the console.
+
 END 
