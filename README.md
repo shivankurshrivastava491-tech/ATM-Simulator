@@ -182,5 +182,6 @@ Withdraw Money
 Transaction History
 Account Information
 Change PIN
-Exit
+Exit 
+
 End
