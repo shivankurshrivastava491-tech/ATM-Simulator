@@ -141,7 +141,6 @@ After successful login, the ATM menu is displayed:
 Enter the number corresponding to the operation you want to perform.
 
 8. Instructions for Testing
-
 The following test cases can be used to verify the main functionality of the project.
 
 
