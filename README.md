@@ -8,8 +8,8 @@ The project provides a menu-driven interface through which a user can log in usi
 The project focuses on applying Python concepts such as functions, conditional statements, loops, exception handling, file handling, JSON data management, and date/time handling.This project is implemented as a console-based Python application.
 
 3.Features:-
-Secure PIN Login
-User authentication through a 4-digit PIN.
+Secure PIN Login:- (ENTER PIN 2006)
+User authentication through a 4-digit PIN-  ENTER PIN(2006)
 Maximum of 3 incorrect PIN attempts.
 Account is automatically locked after 3 failed attempts.
 Locked accounts cannot access the ATM menu.
@@ -140,6 +140,7 @@ Run → Run Module
 
 7. How to Use the Project
 Step 1: Start the Application
+  Enter pin:- 2006 for testing 
 After running the program, the following type of welcome screen is displayed
 Step 2: Enter the PIN
 Enter the account PIN when prompted.
